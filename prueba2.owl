@@ -118,7 +118,6 @@
         <ObjectProperty IRI="#SonAcredoresA"/>
     </Declaration>
     <Declaration>
-
         <DataProperty IRI="#arresto_administrativo"/>
     </Declaration>
     <Declaration>
@@ -291,9 +290,7 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#vehículo1"/>
-
         <NamedIndividual IRI="#Disminución_de_Velocidad"/>
-
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Articulo_11_fraccion_x_insiso_a)"/>
@@ -430,7 +427,6 @@
         <Class IRI="#Normas_de_Circulación"/>
     </SubClassOf>
     <ClassAssertion>
-
         <Class IRI="#Corralón"/>
         <NamedIndividual IRI="#Articulo_11_fraccion_i"/>
     </ClassAssertion>
@@ -1151,11 +1147,10 @@
         <NamedIndividual IRI="#Articulo_11_fraccion_x_insiso_d)"/>
         <Literal>de 40 a 60 veces</Literal>
     </DataPropertyAssertion>
-
+    <ClassAssertion>
         <Class IRI="#Señales"/>
         <NamedIndividual IRI="#Disminución_de_Velocidad"/>
     </ClassAssertion>
-
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#SonAcredoresA"/>
         <Class IRI="#Vehículos_Motorizados"/>
@@ -1164,7 +1159,6 @@
         <ObjectProperty IRI="#SonAcredoresA"/>
         <Class IRI="#Infracciones"/>
     </ObjectPropertyRange>
-
     <SubDataPropertyOf>
         <DataProperty IRI="#clase"/>
         <DataProperty IRI="#vehiculo"/>
@@ -1193,7 +1187,6 @@
         <DataProperty IRI="#propietario"/>
         <DataProperty IRI="#vehiculo"/>
     </SubDataPropertyOf>
-
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Automoviles</IRI>
@@ -1355,7 +1348,6 @@ Actualmente, existen varios códigos que definen las infracciones de tránsito y
         <IRI>#Vehículos_no_Motorizados</IRI>
         <Literal>Se consideran vehículos no motorizados aquellos vehículos que utilizan tracción humana, pedaleo asistido y/o propulsión eléctrica para su desplazamiento con una velocidad máxima de 25 km/hr.</Literal>
     </AnnotationAssertion>
-
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#peatones</IRI>
