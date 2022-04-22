@@ -109,13 +109,197 @@
         <Class IRI="#Vehículos_no_Motorizados"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#arresto_administrativo"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#peatones"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#SonAcredoresA"/>
     </Declaration>
     <Declaration>
+
+        <DataProperty IRI="#arresto_administrativo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#clase"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#licencia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#marca"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#matricula"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#modelo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#multa"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nombre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#peaton"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#propietario"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#señal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#vehiculo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Articulo_11_fraccion_i"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Articulo_11_fraccion_ii"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Articulo_11_fraccion_iii"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Articulo_22_fraccion_ix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Articulo_22_fraccion_vi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Articulo_22_fraccion_viii"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Articulo_30"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Articulo_33"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Articulo_34_fraccion_i"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Articulo_34_fraccion_ii"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Articulo_34_fraccion_iii"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Articulo_34_fraccion_iv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Articulo_34_fraccion_ix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Articulo_34_fraccion_v"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Articulo_34_fraccion_vi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Articulo_34_fraccion_vii"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Articulo_34_fraccion_viii"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Articuo_34_fraccion_x"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bicicleta1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moto1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moto2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Patineta1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Patín1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Peaton1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Peaton2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Peaton3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pecero1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Taxi1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Trailer2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Trailler1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Triciclo1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#señal1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#señal10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#señal11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#señal12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#señal13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#señal2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#señal3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#señal4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#señal5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#señal6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#señal7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#señal8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#señal9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vehiculo_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vehículo1"/>
+
         <NamedIndividual IRI="#Disminución_de_Velocidad"/>
+
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Articulo_11_fraccion_x_insiso_a)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Articulo_11_fraccion_x_insiso_d)"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#Automoviles"/>
@@ -238,13 +422,740 @@
         <Class IRI="#Normas_de_Circulación"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#arresto_administrativo"/>
+        <Class IRI="#Infracciones"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#peatones"/>
         <Class IRI="#Normas_de_Circulación"/>
     </SubClassOf>
     <ClassAssertion>
+
+        <Class IRI="#Corralón"/>
+        <NamedIndividual IRI="#Articulo_11_fraccion_i"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multa"/>
+        <NamedIndividual IRI="#Articulo_11_fraccion_i"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Corralón"/>
+        <NamedIndividual IRI="#Articulo_11_fraccion_ii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Corralón"/>
+        <NamedIndividual IRI="#Articulo_11_fraccion_iii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multa"/>
+        <NamedIndividual IRI="#Articulo_11_fraccion_iii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Corralón"/>
+        <NamedIndividual IRI="#Articulo_22_fraccion_ix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multa"/>
+        <NamedIndividual IRI="#Articulo_22_fraccion_ix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Corralón"/>
+        <NamedIndividual IRI="#Articulo_22_fraccion_vi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multa"/>
+        <NamedIndividual IRI="#Articulo_22_fraccion_vi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Corralón"/>
+        <NamedIndividual IRI="#Articulo_22_fraccion_viii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multa"/>
+        <NamedIndividual IRI="#Articulo_22_fraccion_viii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Corralón"/>
+        <NamedIndividual IRI="#Articulo_30"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multa"/>
+        <NamedIndividual IRI="#Articulo_30"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Corralón"/>
+        <NamedIndividual IRI="#Articulo_33"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multa"/>
+        <NamedIndividual IRI="#Articulo_33"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Corralón"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_i"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multa"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_i"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#arresto_administrativo"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_i"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Corralón"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_ii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multa"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_ii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#arresto_administrativo"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_ii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multa"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_iii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#arresto_administrativo"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_iii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multa"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_iv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#arresto_administrativo"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_iv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Corralón"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_ix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multa"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_ix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#arresto_administrativo"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_ix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multa"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_v"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#arresto_administrativo"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_v"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Corralón"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_vi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multa"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_vi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#arresto_administrativo"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_vi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Corralón"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_vii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multa"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_vii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#arresto_administrativo"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_vii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Corralón"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_viii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multa"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_viii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#arresto_administrativo"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_viii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Corralón"/>
+        <NamedIndividual IRI="#Articuo_34_fraccion_x"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multa"/>
+        <NamedIndividual IRI="#Articuo_34_fraccion_x"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#arresto_administrativo"/>
+        <NamedIndividual IRI="#Articuo_34_fraccion_x"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vehículos_no_Motorizados"/>
+        <NamedIndividual IRI="#Bicicleta1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Motos"/>
+        <NamedIndividual IRI="#Moto1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Motos"/>
+        <NamedIndividual IRI="#Moto2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vehículos_no_Motorizados"/>
+        <NamedIndividual IRI="#Patineta1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vehículos_no_Motorizados"/>
+        <NamedIndividual IRI="#Patín1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#peatones"/>
+        <NamedIndividual IRI="#Peaton1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#peatones"/>
+        <NamedIndividual IRI="#Peaton2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#peatones"/>
+        <NamedIndividual IRI="#Peaton3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transporte_Público"/>
+        <NamedIndividual IRI="#Pecero1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transporte_Público"/>
+        <NamedIndividual IRI="#Taxi1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vehículos_de_Carga"/>
+        <NamedIndividual IRI="#Trailer2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vehículos_de_Carga"/>
+        <NamedIndividual IRI="#Trailler1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vehículos_no_Motorizados"/>
+        <NamedIndividual IRI="#Triciclo1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Preventivas"/>
+        <NamedIndividual IRI="#señal1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#De_Información_General"/>
+        <NamedIndividual IRI="#señal10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#De_Información_General"/>
+        <NamedIndividual IRI="#señal11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Turisticas"/>
+        <NamedIndividual IRI="#señal12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Turisticas"/>
+        <NamedIndividual IRI="#señal13"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Preventivas"/>
+        <NamedIndividual IRI="#señal2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Preventivas"/>
+        <NamedIndividual IRI="#señal3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Restrictivas"/>
+        <NamedIndividual IRI="#señal4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Restrictivas"/>
+        <NamedIndividual IRI="#señal5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Restrictivas"/>
+        <NamedIndividual IRI="#señal6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Informativas_de_Destino"/>
+        <NamedIndividual IRI="#señal7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Informativas_de_Destino"/>
+        <NamedIndividual IRI="#señal8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Informativas_de_Destino"/>
+        <NamedIndividual IRI="#señal9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Automoviles"/>
+        <NamedIndividual IRI="#vehiculo_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Automoviles"/>
+        <NamedIndividual IRI="#vehículo1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Corralón"/>
+        <NamedIndividual IRI="#Articulo_11_fraccion_x_insiso_a)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multa"/>
+        <NamedIndividual IRI="#Articulo_11_fraccion_x_insiso_a)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Corralón"/>
+        <NamedIndividual IRI="#Articulo_11_fraccion_x_insiso_d)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multa"/>
+        <NamedIndividual IRI="#Articulo_11_fraccion_x_insiso_d)"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multa"/>
+        <NamedIndividual IRI="#Articulo_11_fraccion_i"/>
+        <Literal>de 40 a 50 veces</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multa"/>
+        <NamedIndividual IRI="#Articulo_11_fraccion_ii"/>
+        <Literal>de 40 a 50 veces</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multa"/>
+        <NamedIndividual IRI="#Articulo_11_fraccion_iii"/>
+        <Literal>de 20 a 30 veces</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multa"/>
+        <NamedIndividual IRI="#Articulo_11_fraccion_iii"/>
+        <Literal>de 40 a 50 veces</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#arresto_administrativo"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_i"/>
+        <Literal>de 6 a 12 horas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multa"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_i"/>
+        <Literal>de 1 a 10 veces</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#arresto_administrativo"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_ii"/>
+        <Literal>inconmutable de 20 a 36 horas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multa"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_ii"/>
+        <Literal>de 21 a 30 veces</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#arresto_administrativo"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_iii"/>
+        <Literal>de 13 a 24 horas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multa"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_iii"/>
+        <Literal>de 11 a 20 veces</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#arresto_administrativo"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_iv"/>
+        <Literal>de 25 a 36 horas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multa"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_iv"/>
+        <Literal>de 21 a 30 veces</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#arresto_administrativo"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_ix"/>
+        <Literal>de 6 a 12 horas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multa"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_ix"/>
+        <Literal>de 1 a 10 veces</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#arresto_administrativo"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_v"/>
+        <Literal>de 13 a 24 horas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multa"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_v"/>
+        <Literal>de 11 a 20 veces</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#arresto_administrativo"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_vi"/>
+        <Literal>de 6 a 12 horas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multa"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_vi"/>
+        <Literal>de 1 a 10 veces</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#arresto_administrativo"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_vii"/>
+        <Literal>de 6 a 12 horas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multa"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_vii"/>
+        <Literal>de 1 a 10 veces</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#arresto_administrativo"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_viii"/>
+        <Literal>de 6 a 12 horas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multa"/>
+        <NamedIndividual IRI="#Articulo_34_fraccion_viii"/>
+        <Literal>de 1 a 10 veces</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#arresto_administrativo"/>
+        <NamedIndividual IRI="#Articuo_34_fraccion_x"/>
+        <Literal>de 6 a 12 horas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multa"/>
+        <NamedIndividual IRI="#Articuo_34_fraccion_x"/>
+        <Literal>de 1 a 10 veces</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#propietario"/>
+        <NamedIndividual IRI="#Bicicleta1"/>
+        <Literal>Julián</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#Moto1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">57349076</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#marca"/>
+        <NamedIndividual IRI="#Moto1"/>
+        <Literal>Italika</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#matricula"/>
+        <NamedIndividual IRI="#Moto1"/>
+        <Literal>A00-256</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#propietario"/>
+        <NamedIndividual IRI="#Moto1"/>
+        <Literal>Alejandro</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#Moto2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">23657894</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#marca"/>
+        <NamedIndividual IRI="#Moto2"/>
+        <Literal>Honda</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#matricula"/>
+        <NamedIndividual IRI="#Moto2"/>
+        <Literal>25B-567</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#propietario"/>
+        <NamedIndividual IRI="#Moto2"/>
+        <Literal>José</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#propietario"/>
+        <NamedIndividual IRI="#Patineta1"/>
+        <Literal>Juana</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#propietario"/>
+        <NamedIndividual IRI="#Patín1"/>
+        <Literal>Emmanuel</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Peaton1"/>
+        <Literal>Martín</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Peaton2"/>
+        <Literal>Jorge</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Peaton3"/>
+        <Literal>Ramón</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#clase"/>
+        <NamedIndividual IRI="#Pecero1"/>
+        <Literal>Van</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#Pecero1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">16754453</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#marca"/>
+        <NamedIndividual IRI="#Pecero1"/>
+        <Literal>Chevrolet</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#modelo"/>
+        <NamedIndividual IRI="#Pecero1"/>
+        <Literal>Tornado</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#propietario"/>
+        <NamedIndividual IRI="#Pecero1"/>
+        <Literal>Bryan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#clase"/>
+        <NamedIndividual IRI="#Taxi1"/>
+        <Literal>Hatchback</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#Taxi1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">22575436</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#marca"/>
+        <NamedIndividual IRI="#Taxi1"/>
+        <Literal>Hyundai</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#matricula"/>
+        <NamedIndividual IRI="#Taxi1"/>
+        <Literal>A4T-4566</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#modelo"/>
+        <NamedIndividual IRI="#Taxi1"/>
+        <Literal>Grand i10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#propietario"/>
+        <NamedIndividual IRI="#Taxi1"/>
+        <Literal>Pablo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#Trailer2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">21267456</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#marca"/>
+        <NamedIndividual IRI="#Trailer2"/>
+        <Literal>Kenworth</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#matricula"/>
+        <NamedIndividual IRI="#Trailer2"/>
+        <Literal>AOP_4556</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#modelo"/>
+        <NamedIndividual IRI="#Trailer2"/>
+        <Literal>T680</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#propietario"/>
+        <NamedIndividual IRI="#Trailer2"/>
+        <Literal>Vernardo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#Trailler1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">22435563</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#marca"/>
+        <NamedIndividual IRI="#Trailler1"/>
+        <Literal>Mercedes Venz</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#matricula"/>
+        <NamedIndividual IRI="#Trailler1"/>
+        <Literal>NxB-2113</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#modelo"/>
+        <NamedIndividual IRI="#Trailler1"/>
+        <Literal>Cascadia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#propietario"/>
+        <NamedIndividual IRI="#Trailler1"/>
+        <Literal>Ruben</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#propietario"/>
+        <NamedIndividual IRI="#Triciclo1"/>
+        <Literal>Darwin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#señal"/>
+        <NamedIndividual IRI="#señal1"/>
+        <Literal>Curva</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#señal"/>
+        <NamedIndividual IRI="#señal12"/>
+        <Literal>estacionamiento</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#señal"/>
+        <NamedIndividual IRI="#señal13"/>
+        <Literal>Gasolinera</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#señal"/>
+        <NamedIndividual IRI="#señal2"/>
+        <Literal>curva cerrada</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#señal"/>
+        <NamedIndividual IRI="#señal3"/>
+        <Literal>incorporación de tránsito</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#señal"/>
+        <NamedIndividual IRI="#señal4"/>
+        <Literal>Alto</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#señal"/>
+        <NamedIndividual IRI="#señal5"/>
+        <Literal>prohibido rebasar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#señal"/>
+        <NamedIndividual IRI="#señal6"/>
+        <Literal>prohibido estacionarse</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#señal"/>
+        <NamedIndividual IRI="#señal7"/>
+        <Literal>señal baja</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#señal"/>
+        <NamedIndividual IRI="#señal8"/>
+        <Literal>señal alta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#señal"/>
+        <NamedIndividual IRI="#señal9"/>
+        <Literal>diagrmática</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#clase"/>
+        <NamedIndividual IRI="#vehiculo_2"/>
+        <Literal>Sedan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#vehiculo_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15090872</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#marca"/>
+        <NamedIndividual IRI="#vehiculo_2"/>
+        <Literal>niisan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#matricula"/>
+        <NamedIndividual IRI="#vehiculo_2"/>
+        <Literal>nzz-2279</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#modelo"/>
+        <NamedIndividual IRI="#vehiculo_2"/>
+        <Literal>Cavalier</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#propietario"/>
+        <NamedIndividual IRI="#vehiculo_2"/>
+        <Literal>Alan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#clase"/>
+        <NamedIndividual IRI="#vehículo1"/>
+        <Literal>Sedan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#vehículo1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10987745</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#marca"/>
+        <NamedIndividual IRI="#vehículo1"/>
+        <Literal>Volkswagen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#matricula"/>
+        <NamedIndividual IRI="#vehículo1"/>
+        <Literal>NZB-2242</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#modelo"/>
+        <NamedIndividual IRI="#vehículo1"/>
+        <Literal>Derby</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#propietario"/>
+        <NamedIndividual IRI="#vehículo1"/>
+        <Literal>Cristóbal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multa"/>
+        <NamedIndividual IRI="#Articulo_11_fraccion_x_insiso_a)"/>
+        <Literal>de 40 a 60 veces</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multa"/>
+        <NamedIndividual IRI="#Articulo_11_fraccion_x_insiso_d)"/>
+        <Literal>de 40 a 60 veces</Literal>
+    </DataPropertyAssertion>
+
         <Class IRI="#Señales"/>
         <NamedIndividual IRI="#Disminución_de_Velocidad"/>
     </ClassAssertion>
+
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#SonAcredoresA"/>
         <Class IRI="#Vehículos_Motorizados"/>
@@ -253,6 +1164,36 @@
         <ObjectProperty IRI="#SonAcredoresA"/>
         <Class IRI="#Infracciones"/>
     </ObjectPropertyRange>
+
+    <SubDataPropertyOf>
+        <DataProperty IRI="#clase"/>
+        <DataProperty IRI="#vehiculo"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#licencia"/>
+        <DataProperty IRI="#propietario"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#marca"/>
+        <DataProperty IRI="#vehiculo"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#matricula"/>
+        <DataProperty IRI="#vehiculo"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#modelo"/>
+        <DataProperty IRI="#vehiculo"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#nombre"/>
+        <DataProperty IRI="#peaton"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#propietario"/>
+        <DataProperty IRI="#vehiculo"/>
+    </SubDataPropertyOf>
+
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Automoviles</IRI>
@@ -414,6 +1355,7 @@ Actualmente, existen varios códigos que definen las infracciones de tránsito y
         <IRI>#Vehículos_no_Motorizados</IRI>
         <Literal>Se consideran vehículos no motorizados aquellos vehículos que utilizan tracción humana, pedaleo asistido y/o propulsión eléctrica para su desplazamiento con una velocidad máxima de 25 km/hr.</Literal>
     </AnnotationAssertion>
+
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#peatones</IRI>
