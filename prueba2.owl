@@ -58,6 +58,12 @@
         <Class IRI="#Multa"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Multa_de_Circulación"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Multa_de_Estacionamiento"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#No_Autorizado_para_Infraccionar"/>
     </Declaration>
     <Declaration>
@@ -73,7 +79,7 @@
         <Class IRI="#Red_Víal"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Reglamento_de_tránsito"/>
+        <Class IRI="#Reglamento_de_Tránsito"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Restrictivas"/>
@@ -112,6 +118,7 @@
         <ObjectProperty IRI="#SonAcredoresA"/>
     </Declaration>
     <Declaration>
+
         <DataProperty IRI="#arresto_administrativo"/>
     </Declaration>
     <Declaration>
@@ -284,6 +291,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#vehículo1"/>
+
+        <NamedIndividual IRI="#Disminución_de_Velocidad"/>
+
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Articulo_11_fraccion_x_insiso_a)"/>
@@ -321,19 +331,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Dispositivos_Para_el_Control_del_Tránsito"/>
-        <Class IRI="#Reglamento_de_tránsito"/>
+        <Class IRI="#Reglamento_de_Tránsito"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Funciones_de_los_Agentes"/>
-        <Class IRI="#Reglamento_de_tránsito"/>
+        <Class IRI="#Reglamento_de_Tránsito"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Informativas_de_Destino"/>
         <Class IRI="#Señales"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Infracciones"/>
-        <Class IRI="#Reglamento_de_tránsito"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Infromativas_de_Identificación"/>
@@ -352,12 +358,20 @@
         <Class IRI="#Infracciones"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Multa_de_Circulación"/>
+        <Class IRI="#Multa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Multa_de_Estacionamiento"/>
+        <Class IRI="#Multa"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#No_Autorizado_para_Infraccionar"/>
         <Class IRI="#Funciones_de_los_Agentes"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Normas_de_Circulación"/>
-        <Class IRI="#Reglamento_de_tránsito"/>
+        <Class IRI="#Reglamento_de_Tránsito"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Para_Desvíos"/>
@@ -369,7 +383,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Red_Víal"/>
-        <Class IRI="#Reglamento_de_tránsito"/>
+        <Class IRI="#Reglamento_de_Tránsito"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Restrictivas"/>
@@ -416,6 +430,7 @@
         <Class IRI="#Normas_de_Circulación"/>
     </SubClassOf>
     <ClassAssertion>
+
         <Class IRI="#Corralón"/>
         <NamedIndividual IRI="#Articulo_11_fraccion_i"/>
     </ClassAssertion>
@@ -1136,6 +1151,11 @@
         <NamedIndividual IRI="#Articulo_11_fraccion_x_insiso_d)"/>
         <Literal>de 40 a 60 veces</Literal>
     </DataPropertyAssertion>
+
+        <Class IRI="#Señales"/>
+        <NamedIndividual IRI="#Disminución_de_Velocidad"/>
+    </ClassAssertion>
+
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#SonAcredoresA"/>
         <Class IRI="#Vehículos_Motorizados"/>
@@ -1144,6 +1164,7 @@
         <ObjectProperty IRI="#SonAcredoresA"/>
         <Class IRI="#Infracciones"/>
     </ObjectPropertyRange>
+
     <SubDataPropertyOf>
         <DataProperty IRI="#clase"/>
         <DataProperty IRI="#vehiculo"/>
@@ -1172,10 +1193,173 @@
         <DataProperty IRI="#propietario"/>
         <DataProperty IRI="#vehiculo"/>
     </SubDataPropertyOf>
+
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Automoviles</IRI>
+        <Literal>Un automóvil o coche, es un vehículo mecánico (vehículo motorizado) de propulsión propia destinado al transporte de personas, generalmente con cuatro ruedas y capacidad entre una y nueve plazas. Las ruedas &quot;delanteras&quot; pueden moverse hacia los lados para permitir giros y tomar curvas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Autorizado_para_Infracionar</IRI>
+        <Literal>Persona integrante de la Policía de Control de Tránsito, autorizada para expedir y firmar las boletas de sanción, con motivo de infracciones a las disposiciones en materia de tránsito, captadas mediante sistemas tecnológicos y equipos electrónicos portátiles.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Autos_Privados</IRI>
+        <Literal>Es el destinado al uso privado de la persona o empresa propietaria del vehículo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Corporales</IRI>
+        <Literal>Señales corporales de los agentes de tránsito. Las autoridades encargadas de controlar el tránsito harán las señales de la siguiente manera: La espalda o el frente indican que está cerrada la circulación y el conductor deberá detenerse. Los flancos indican que la vía está libre.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Corralón</IRI>
+        <Literal>Este término es una expresión que proviene del aumentativo de la palabra “corral” y es utilizado en México para referirse al terreno donde la policía de tránsito guarda los vehículos retirados a los conductores de la ciudad por cometer alguna infracción.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#De_Información_General</IRI>
+        <Literal>El objetivo de estas señales es informar determinadas disposiciones y recomendaciones de seguridad que conviene observar, así como cierta información general que conviene conocer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dispositivos_Diversos</IRI>
+        <Literal>Los dispositivos diversos tienen por propósito indicar la existencia de objetos dentro del derecho de vía y bifurcaciones en la carretera o vialidad urbana, delinear sus características geométricas, así como advertir sobre la existencia de curvas cerradas, entre otras funciones.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dispositivos_Para_el_Control_del_Tránsito</IRI>
+        <Literal>Conjunto de elementos que ordenan y orientan los movimientos de tránsito de personas y circulación de vehículos; que previenen y proporcionan información a los usuarios de la vía para garantizar su seguridad, permitiendo una operación efectiva del flujo peatonal y vehicular.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Funciones_de_los_Agentes</IRI>
+        <Literal>Un agente vial es un miembro de la Guardia Civil o de la Policía Municipal encargado de la vigilancia y ordenación del tráfico, la denuncia de las infracciones cometidas en la materia y el auxilio y protección a los usuarios de las vías. Sus denuncias dan fe de los hechos que han apreciado directamente o gozan de la denominada presunción de certeza o veracidad.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Informativas_de_Destino</IRI>
+        <Literal>Tienen por objeto informar a los usuarios sobre el nombre y la ubicación de cada uno de los destinos que se presentan a lo largo de su recorrido. Su aplicación es primordial en las intersecciones en donde el usuario debe elegir la ruta a seguir según el destino seleccionado.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Infracciones</IRI>
+        <Literal>Una infracción es una sanción a la que el conductor se hace acreedor por presentar conductas que transgredan alguna disposición del reglamento de tránsito vigente en el país o demás disposiciones de tránsito aplicables. 
+Actualmente, existen varios códigos que definen las infracciones de tránsito y según estos se establece el valor de las multas, el cual va ligado a la gravedad de la infracción.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Infromativas_de_Identificación</IRI>
+        <Literal>Tienen por objeto identificar las calles según su nombre y las carreteras según su número de ruta y kilometraje.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Marcas_de_Pavimento</IRI>
+        <Literal>Las marcas son las rayas, los símbolos y las letras que se pintan sobre el pavimento, guarniciones y estructuras, dentro de o adyacentes a las vías de circulación, así como los objetos que se colocan sobre la superficie de rodamiento con el fin de regular o canalizar el tránsito e indicar la presencia de obstáculos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Motos</IRI>
+        <Literal>Una motocicleta es un vehículo de dos ruedas, diseñado para el transporte de una o dos personas. Se trata de un automóvil ya que es un medio de transporte que puede moverse por sí mismo sin tener que apelar a vías o carriles.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Multa</IRI>
+        <Literal>Las multas son sanciones impuestas por agentes de tránsito por cometer alguna infracción, que en general están separadas de las infracciones de estacionamiento (sin movimiento) e infracciones al circular con un vehículo (con movimiento) y están establecidas para proteger la seguridad tanto del conductor como la de los peatones.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Multa_de_Circulación</IRI>
+        <Literal>Multas que implican una infracción a la ley de tránsito mientras el vehículo está en movimiento, son generalmente más graves que las multas por estacionamiento.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Multa_de_Estacionamiento</IRI>
+        <Literal>Multas que implican una infracción a la ley de tránsito por aparcar el automóvil en un sitio en el que no se encuentra permitido debido a los señalamientos y sentido de circulación de la vialidad.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#No_Autorizado_para_Infraccionar</IRI>
+        <Literal>En este rubro está contenido cualquier servidor público de la Secretaría de Seguridad de la Ciudad de México que no reúna las características necesarias y que por ende carece de facultades en materia de tránsito, en contra de quien puede iniciarse una queja o denuncia.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Normas_de_Circulación</IRI>
+        <Literal>Las normas de tránsito también conocidas como normas de circulación componen el principal punto en la seguridad vial y se tratan del conjunto de disposiciones y protocolos que regulan el tránsito o circulación de vehículos y peatones.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Para_Desvíos</IRI>
+        <Literal>Esta señal se emplea para advertir a los usuarios de las vías, la proximidad a un sitio en el cual se desvía la circulación del tránsito. Deberá indicarse la distancia a la cual se encuentra el desvío.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Preventivas</IRI>
+        <Literal>Son de color amarillo que tienen un símbolo y que tienen por objeto prevenir a los conductores de la existencia de algún peligro en el camino y su naturaleza.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Reglamento_de_Tránsito</IRI>
+        <Literal>El reglamento de tránsito es el documento que  tiene por objeto regular la circulación de peatones y vehículos en la vía pública y la seguridad vial en la Ciudad de México.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Restrictivas</IRI>
+        <Literal>Son las de color blanco con un aro de color rojo y que tienen por objeto indicar la existencia de limitaciones físicas o prohibiciones reglamentarias que regulan el tránsito.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Retención_de_Licencia</IRI>
+        <Literal>La retención de la licencia de conducir en la CDMX se dará cuando el conductor en cuestión sea detenido por manejar en estado de ebriedad o bajo los efectos de alguna droga.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Semáforos</IRI>
+        <Literal>Un semáforo es un dispositivo eléctrico de señalización vial, que sirve para regular la circulación de vehículos y peatones en las vías públicas, asignando el derecho de paso a los vehículos y peatones según el uso de colores rojo, amarillo y verde y sus diferentes significados.
+~Rojo sólido: significa que debes hacer el ALTO.
+~Rojo intermitente: te indica un ALTO, pero que puedes avanzar cuando sea seguro hacerlo, tomando en cuenta que no llevas el derecho de vía.
+~Amarillo sólido: Esta luz, que normalmente la verás como transición entre la luz verde y la roja, indica PRECAUCIÓN.
+~Amarillo intermitente: Esta luz te advierte que tú tienes la preferencia de paso, pero que debes proceder con PRECAUCIÓN.
+~Verde sólido: Los colores verdes de un semáforo te indican que puedes cruzar y qué llevas el derecho de vía. El verde sólido te indica que puedes AVANZAR, manteniendo siempre la prudencia.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Señales</IRI>
+        <Literal>Conjunto de elementos y objetos visuales de contenido informativo, indicativo, restrictivo, preventivo, prohibitivo o de cualquier otro carácter, que se colocan en la infraestructura vial.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Transporte_Público</IRI>
+        <Literal>El transporte público comprende los medios de transporte en que los pasajeros no son los propietarios de los mismos, siendo servidos por terceros (empresas públicas o privadas). El transporte público ayuda al desplazamiento de las personas de un punto a otro en un área de una ciudad, pagando cada persona una tarifa establecida dependiendo de su recorrido.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Turisticas</IRI>
+        <Literal>Tienen por objetivo informar de la existencia de un servicio o de un lugar de interés turístico y/o recreativo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vehículos_Motorizados</IRI>
+        <Literal>Se consideran vehículos motorizados aquellos vehículos de transporte terrestre de pasajeros o carga, que para su tracción dependen de un motor de combustión interna, eléctrica o de cualquier otra tecnología que le proporciona velocidad a más de 25 km/hr.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vehículos_de_Carga</IRI>
+        <Literal>Vehículo de carretera provisto de un motor que constituye su único medio de propulsión, proyectado, exclusiva o principalmente, para el transporte de mercancías o para remolcar vehículos utilizados para el transporte de mercancías.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vehículos_no_Motorizados</IRI>
+        <Literal>Se consideran vehículos no motorizados aquellos vehículos que utilizan tracción humana, pedaleo asistido y/o propulsión eléctrica para su desplazamiento con una velocidad máxima de 25 km/hr.</Literal>
+    </AnnotationAssertion>
+
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#peatones</IRI>
-        <Literal>Los peatones son cualquier persona que se encuentre ocupando la vía pública sin conducir un vehículo</Literal>
+        <Literal>Persona que transita por la vía a pie y/o que utiliza ayudas técnicas por su condición de discapacidad o movilidad limitada, así como en patines, patineta u otros vehículos recreativos; incluye a niños menores de doce años a bordo de un vehículo no motorizado.</Literal>
     </AnnotationAssertion>
 </Ontology>
 
