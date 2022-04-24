@@ -133,7 +133,14 @@
         <ObjectProperty IRI="#ControlaConMarcas"/>
     </Declaration>
     <Declaration>
+
+        <ObjectProperty IRI="#RegulanA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#SeClasificanEn"/>
+
         <ObjectProperty IRI="#ControlaConSeñales"/>
+
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#ControlanCon"/>
@@ -1472,6 +1479,116 @@
         <Class IRI="#Dispositivos_Para_el_Control_del_Tránsito"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+
+        <ObjectProperty IRI="#Como"/>
+        <Class IRI="#Dispositivos_Para_el_Control_del_Tránsito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Como"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Como"/>
+            <Class IRI="#Dispositivos_Para_el_Control_del_Tránsito"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Conlleva"/>
+        <Class IRI="#sanciones"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Conlleva"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Conlleva"/>
+            <Class IRI="#sanciones"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Está"/>
+        <Class IRI="#Funciones_de_los_Agentes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Está"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Está"/>
+            <Class IRI="#Funciones_de_los_Agentes"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#PuedenSer"/>
+        <Class IRI="#Autos_Privados"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#PuedenSer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PuedenSer"/>
+            <Class IRI="#Vehículos_Motorizados"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#RegulaCon"/>
+        <Class IRI="#Reglamento_de_Tránsito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#RegulaCon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#RegulaCon"/>
+            <Class IRI="#Reglamento_de_Tránsito"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#RegulanA"/>
+        <Class IRI="#Normas_de_Circulación"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#RegulanA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#RegulanA"/>
+            <Class IRI="#Normas_de_Circulación"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#SeClasificanEn"/>
+        <Class IRI="#Vehículos_Motorizados"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#SeClasificanEn"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SeClasificanEn"/>
+            <Class IRI="#Vehículos_Motorizados"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#SeDivideEn"/>
+        <Class IRI="#Multa"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#SeDivideEn"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SeDivideEn"/>
+            <Class IRI="#Multa"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#SeEmplean"/>
+        <Class IRI="#Señales"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#SeEmplean"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SeEmplean"/>
+            <Class IRI="#Señales"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Son"/>
+        <Class IRI="#Dispositivos_Diversos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Son"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Son"/>
+            <Class IRI="#Dispositivos_Diversos"/>
+        </ObjectSomeValuesFrom>
+
         <ObjectProperty IRI="#ControlaConMarcas"/>
         <Class IRI="#Dispositivos_Para_el_Control_del_Tránsito"/>
     </ObjectPropertyDomain>
@@ -1506,6 +1623,7 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#RegulanConElUsoDe"/>
         <Class IRI="#Reglamento_de_Tránsito"/>
+
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#SonAcredoresA"/>
@@ -1548,12 +1666,161 @@
         <Class IRI="#Vehículos_Motorizados"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
+
+        <ObjectProperty IRI="#Como"/>
+        <Class IRI="#Dispositivos_Diversos"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Como"/>
+        <Class IRI="#Marcas_de_Pavimento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Como"/>
+        <Class IRI="#Señales"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Como"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Como"/>
+            <Class IRI="#Dispositivos_Diversos"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Como"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Como"/>
+            <Class IRI="#Marcas_de_Pavimento"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Como"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Como"/>
+            <Class IRI="#Señales"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Conlleva"/>
+        <Class IRI="#Corralón"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Conlleva"/>
+        <Class IRI="#Multa"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Conlleva"/>
+        <Class IRI="#Retención_de_Licencia"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Conlleva"/>
+        <Class IRI="#arresto_administrativo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Conlleva"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Conlleva"/>
+            <Class IRI="#Corralón"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Conlleva"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Conlleva"/>
+            <Class IRI="#Multa"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Conlleva"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Conlleva"/>
+            <Class IRI="#Retención_de_Licencia"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Conlleva"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Conlleva"/>
+            <Class IRI="#arresto_administrativo"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Está"/>
+        <Class IRI="#Autorizado_para_Infracionar"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Está"/>
+        <Class IRI="#No_Autorizado_para_Infraccionar"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Está"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Está"/>
+            <Class IRI="#Autorizado_para_Infracionar"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Está"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Está"/>
+            <Class IRI="#No_Autorizado_para_Infraccionar"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#PuedenSer"/>
+        <Class IRI="#Automoviles"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#PuedenSer"/>
+        <Class IRI="#Motos"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#PuedenSer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PuedenSer"/>
+            <Class IRI="#Automoviles"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#PuedenSer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PuedenSer"/>
+            <Class IRI="#Motos"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RegulaCon"/>
+        <Class IRI="#Dispositivos_Para_el_Control_del_Tránsito"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RegulaCon"/>
+        <Class IRI="#Funciones_de_los_Agentes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RegulaCon"/>
+        <Class IRI="#Normas_de_Circulación"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RegulaCon"/>
+        <Class IRI="#Red_Víal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RegulaCon"/>
+        <Class IRI="#sanciones"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RegulaCon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#RegulaCon"/>
+            <Class IRI="#Dispositivos_Para_el_Control_del_Tránsito"/>
+        </ObjectSomeValuesFrom>
+
         <ObjectProperty IRI="#AgenteAutorizado"/>
         <Class IRI="#Autorizado_para_Infracionar"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#AgenteNoAutorizado"/>
         <Class IRI="#No_Autorizado_para_Infraccionar"/>
+
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#ControlaConDispositivos"/>
@@ -1572,8 +1839,61 @@
         <Class IRI="#Semáforos"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+
+        <ObjectProperty IRI="#RegulanA"/>
+        <Class IRI="#Vehículos_Motorizados"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RegulanA"/>
+        <Class IRI="#Vehículos_no_Motorizados"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RegulanA"/>
+        <Class IRI="#peatones"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RegulanA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#RegulanA"/>
+            <Class IRI="#Vehículos_Motorizados"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RegulanA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#RegulanA"/>
+            <Class IRI="#Vehículos_no_Motorizados"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RegulanA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#RegulanA"/>
+            <Class IRI="#peatones"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SeClasificanEn"/>
+        <Class IRI="#Autos_Privados"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SeClasificanEn"/>
+        <Class IRI="#Transporte_Público"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SeClasificanEn"/>
+        <Class IRI="#Vehículos_de_Carga"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SeClasificanEn"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SeClasificanEn"/>
+            <Class IRI="#Autos_Privados"/>
+        </ObjectSomeValuesFrom>
+
         <ObjectProperty IRI="#MultaPorCirculacion"/>
         <Class IRI="#Multa_de_Circulación"/>
+
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#MultaPorEstacionamiento"/>
@@ -1584,16 +1904,72 @@
         <Class IRI="#peatones"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+
+        <ObjectProperty IRI="#SeDivideEn"/>
+        <Class IRI="#Multa_de_Circulación"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SeDivideEn"/>
+        <Class IRI="#Multa_de_Estacionamiento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SeDivideEn"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SeDivideEn"/>
+            <Class IRI="#Multa_de_Circulación"/>
+        </ObjectSomeValuesFrom>
+
         <ObjectProperty IRI="#RegulanAVehiculosMotorizados"/>
         <Class IRI="#Vehículos_Motorizados"/>
+
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#RegulanAVehiculosNoMotorizados"/>
         <Class IRI="#Vehículos_no_Motorizados"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+
+        <ObjectProperty IRI="#SeEmplean"/>
+        <Class IRI="#Corporales"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SeEmplean"/>
+        <Class IRI="#De_Información_General"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SeEmplean"/>
+        <Class IRI="#Informativas_de_Destino"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SeEmplean"/>
+        <Class IRI="#Infromativas_de_Identificación"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SeEmplean"/>
+        <Class IRI="#Para_Desvíos"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SeEmplean"/>
+        <Class IRI="#Preventivas"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SeEmplean"/>
+        <Class IRI="#Restrictivas"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SeEmplean"/>
+        <Class IRI="#Turisticas"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SeEmplean"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SeEmplean"/>
+            <Class IRI="#Corporales"/>
+        </ObjectSomeValuesFrom>
+
         <ObjectProperty IRI="#RegulanConElUsoDe"/>
         <Class IRI="#Red_Víal"/>
+
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#SonAcredoresA"/>
@@ -1624,8 +2000,20 @@
         <Class IRI="#Preventivas"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+
+        <ObjectProperty IRI="#Son"/>
+        <Class IRI="#Semáforos"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Son"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Son"/>
+            <Class IRI="#Semáforos"/>
+        </ObjectSomeValuesFrom>
+
         <ObjectProperty IRI="#UsaSeñalesRestrictivas"/>
         <Class IRI="#Restrictivas"/>
+
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#UsaSeñalesTuristicas"/>
