@@ -114,7 +114,6 @@
     <Declaration>
         <Class IRI="#peatones"/>
     </Declaration>
-
     <Declaration>
         <ObjectProperty IRI="#AgenteAutorizado"/>
     </Declaration>
@@ -202,7 +201,6 @@
     <Declaration>
         <ObjectProperty IRI="#UsaSeñalesTuristicas"/>
     </Declaration>
-
     <Declaration>
         <DataProperty IRI="#arresto_administrativo"/>
     </Declaration>
@@ -297,6 +295,9 @@
         <NamedIndividual IRI="#Bicicleta1"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Disminución_de_Velocidad"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Moto1"/>
     </Declaration>
     <Declaration>
@@ -375,14 +376,13 @@
         <NamedIndividual IRI="#vehiculo_2"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#vehículo1"/>
-        <NamedIndividual IRI="#Disminución_de_Velocidad"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Articulo_11_fraccion_x_insiso_a)"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Articulo_11_fraccion_x_insiso_d)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vehículo1"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#Automoviles"/>
@@ -683,6 +683,10 @@
     <ClassAssertion>
         <Class IRI="#Vehículos_no_Motorizados"/>
         <NamedIndividual IRI="#Bicicleta1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Señales"/>
+        <NamedIndividual IRI="#Disminución_de_Velocidad"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Motos"/>
@@ -1233,10 +1237,6 @@
         <NamedIndividual IRI="#Articulo_11_fraccion_x_insiso_d)"/>
         <Literal>de 40 a 60 veces</Literal>
     </DataPropertyAssertion>
-    <ClassAssertion>
-        <Class IRI="#Señales"/>
-        <NamedIndividual IRI="#Disminución_de_Velocidad"/>
-    </ClassAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#AgenteAutorizado"/>
         <ObjectProperty IRI="#Agentes"/>
@@ -1252,6 +1252,10 @@
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#ControlaConDispositivos"/>
         <ObjectProperty IRI="#ControlanCon"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ControlaConMarcas"/>
+        <ObjectProperty IRI="#ControlaConSeñales"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#ControlaConMarcas"/>
@@ -1345,6 +1349,9 @@
         <ObjectProperty IRI="#AgenteNoAutorizado"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Agentes"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
         <ObjectProperty IRI="#ControlaConMarcas"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
@@ -1367,6 +1374,9 @@
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
         <ObjectProperty IRI="#RegulanAVehiculosNoMotorizados"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#RegulanCon"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
         <ObjectProperty IRI="#RegulanConElUsoDe"/>
@@ -1405,6 +1415,9 @@
         <ObjectProperty IRI="#AgenteNoAutorizado"/>
     </IrreflexiveObjectProperty>
     <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#Agentes"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
         <ObjectProperty IRI="#ControlaConMarcas"/>
     </IrreflexiveObjectProperty>
     <IrreflexiveObjectProperty>
@@ -1427,6 +1440,9 @@
     </IrreflexiveObjectProperty>
     <IrreflexiveObjectProperty>
         <ObjectProperty IRI="#RegulanAVehiculosNoMotorizados"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#RegulanCon"/>
     </IrreflexiveObjectProperty>
     <IrreflexiveObjectProperty>
         <ObjectProperty IRI="#RegulanConElUsoDe"/>
@@ -1470,6 +1486,10 @@
         <Class IRI="#Funciones_de_los_Agentes"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Agentes"/>
+        <Class IRI="#Funciones_de_los_Agentes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#ControlaConDispositivos"/>
         <Class IRI="#Dispositivos_Para_el_Control_del_Tránsito"/>
     </ObjectPropertyDomain>
@@ -1479,6 +1499,10 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#ControlaConSeñales"/>
+        <Class IRI="#Dispositivos_Para_el_Control_del_Tránsito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ControlanCon"/>
         <Class IRI="#Dispositivos_Para_el_Control_del_Tránsito"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -1494,6 +1518,10 @@
         <Class IRI="#Multa"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#RegulanA"/>
+        <Class IRI="#Normas_de_Circulación"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#RegulanAPeatones"/>
         <Class IRI="#Normas_de_Circulación"/>
     </ObjectPropertyDomain>
@@ -1504,6 +1532,10 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#RegulanAVehiculosNoMotorizados"/>
         <Class IRI="#peatones"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#RegulanCon"/>
+        <Class IRI="#Reglamento_de_Tránsito"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#RegulanConElUsoDe"/>
@@ -1570,6 +1602,14 @@
         <Class IRI="#No_Autorizado_para_Infraccionar"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#Agentes"/>
+        <Class IRI="#Autorizado_para_Infracionar"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Agentes"/>
+        <Class IRI="#No_Autorizado_para_Infraccionar"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#ControlaConDispositivos"/>
         <Class IRI="#Dispositivos_Diversos"/>
     </ObjectPropertyRange>
@@ -1579,6 +1619,18 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#ControlaConSeñales"/>
+        <Class IRI="#Señales"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ControlanCon"/>
+        <Class IRI="#Dispositivos_Diversos"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ControlanCon"/>
+        <Class IRI="#Marcas_de_Pavimento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ControlanCon"/>
         <Class IRI="#Señales"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
@@ -1594,6 +1646,18 @@
         <Class IRI="#Multa_de_Estacionamiento"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#RegulanA"/>
+        <Class IRI="#Vehículos_Motorizados"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RegulanA"/>
+        <Class IRI="#Vehículos_no_Motorizados"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RegulanA"/>
+        <Class IRI="#peatones"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#RegulanAPeatones"/>
         <Class IRI="#peatones"/>
     </ObjectPropertyRange>
@@ -1604,6 +1668,22 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#RegulanAVehiculosNoMotorizados"/>
         <Class IRI="#Vehículos_no_Motorizados"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RegulanCon"/>
+        <Class IRI="#Dispositivos_Para_el_Control_del_Tránsito"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RegulanCon"/>
+        <Class IRI="#Funciones_de_los_Agentes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RegulanCon"/>
+        <Class IRI="#Normas_de_Circulación"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#RegulanCon"/>
+        <Class IRI="#Red_Víal"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#RegulanConElUsoDe"/>
