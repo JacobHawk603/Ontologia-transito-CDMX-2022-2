@@ -1,0 +1,3460 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.1.7]",
+  "header": {
+    "languages": [
+      "undefined"
+    ],
+    "baseIris": [
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.w3.org/2001/XMLSchema",
+      "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito"
+    ],
+    "prefixList": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "xml": "http://www.w3.org/XML/1998/namespace",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito"
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.32",
+      "translation": [
+        284.82,
+        95.22
+      ],
+      "paused": false
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "1"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "3",
+      "type": "owl:Class"
+    },
+    {
+      "id": "19",
+      "type": "owl:Class"
+    },
+    {
+      "id": "23",
+      "type": "owl:Class"
+    },
+    {
+      "id": "39",
+      "type": "owl:Class"
+    },
+    {
+      "id": "50",
+      "type": "owl:Class"
+    },
+    {
+      "id": "48",
+      "type": "owl:Class"
+    },
+    {
+      "id": "58",
+      "type": "owl:Class"
+    },
+    {
+      "id": "65",
+      "type": "owl:Class"
+    },
+    {
+      "id": "66",
+      "type": "owl:Class"
+    },
+    {
+      "id": "69",
+      "type": "owl:Class"
+    },
+    {
+      "id": "70",
+      "type": "owl:Class"
+    },
+    {
+      "id": "73",
+      "type": "owl:Class"
+    },
+    {
+      "id": "53",
+      "type": "owl:Class"
+    },
+    {
+      "id": "75",
+      "type": "owl:Class"
+    },
+    {
+      "id": "78",
+      "type": "owl:Class"
+    },
+    {
+      "id": "61",
+      "type": "owl:Class"
+    },
+    {
+      "id": "76",
+      "type": "owl:Class"
+    },
+    {
+      "id": "36",
+      "type": "owl:Class"
+    },
+    {
+      "id": "51",
+      "type": "owl:Class"
+    },
+    {
+      "id": "42",
+      "type": "owl:Class"
+    },
+    {
+      "id": "5",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1",
+      "type": "owl:Class"
+    },
+    {
+      "id": "2",
+      "type": "owl:Class"
+    },
+    {
+      "id": "33",
+      "type": "owl:Class"
+    },
+    {
+      "id": "77",
+      "type": "owl:Class"
+    },
+    {
+      "id": "24",
+      "type": "owl:Class"
+    },
+    {
+      "id": "68",
+      "type": "owl:Class"
+    },
+    {
+      "id": "90",
+      "type": "owl:Class"
+    },
+    {
+      "id": "71",
+      "type": "owl:Class"
+    },
+    {
+      "id": "6",
+      "type": "owl:Class"
+    },
+    {
+      "id": "25",
+      "type": "owl:Class"
+    },
+    {
+      "id": "32",
+      "type": "owl:Class"
+    },
+    {
+      "id": "38",
+      "type": "owl:Class"
+    },
+    {
+      "id": "26",
+      "type": "owl:Class"
+    },
+    {
+      "id": "112",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "114",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "18",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "118",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "64",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "80",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "108",
+      "type": "owl:Class"
+    },
+    {
+      "id": "22",
+      "type": "owl:Class"
+    },
+    {
+      "id": "72",
+      "type": "owl:Class"
+    },
+    {
+      "id": "17",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "110",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "41",
+      "type": "owl:Class"
+    },
+    {
+      "id": "74",
+      "type": "owl:Class"
+    },
+    {
+      "id": "20",
+      "type": "owl:Class"
+    },
+    {
+      "id": "67",
+      "type": "owl:Class"
+    },
+    {
+      "id": "92",
+      "type": "owl:Class"
+    },
+    {
+      "id": "44",
+      "type": "owl:Class"
+    },
+    {
+      "id": "35",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "3",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#peatones",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "peatones"
+      },
+      "comment": {
+        "undefined": "Persona que transita por la vía a pie y/o que utiliza ayudas técnicas por su condición de discapacidad o movilidad limitada, así como en patines, patineta u otros vehículos recreativos; incluye a niños menores de doce años a bordo de un vehículo no motorizado."
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Peaton3",
+          "labels": {
+            "IRI-based": "Peaton3"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Peaton1",
+          "labels": {
+            "IRI-based": "Peaton1"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Peaton2",
+          "labels": {
+            "IRI-based": "Peaton2"
+          }
+        }
+      ],
+      "pos": [
+        -148.73,
+        -587.87
+      ]
+    },
+    {
+      "id": "19",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Corralón",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Corralón"
+      },
+      "comment": {
+        "undefined": "Este término es una expresión que proviene del aumentativo de la palabra “corral” y es utilizado en México para referirse al terreno donde la policía de tránsito guarda los vehículos retirados a los conductores de la ciudad por cometer alguna infracción."
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_34_fraccion_ii",
+          "labels": {
+            "IRI-based": "Articulo_34_fraccion_ii"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_22_fraccion_viii",
+          "labels": {
+            "IRI-based": "Articulo_22_fraccion_viii"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_11_fraccion_x_insiso_d)",
+          "labels": {
+            "IRI-based": "Articulo_11_fraccion_x_insiso_d)"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_11_fraccion_ii",
+          "labels": {
+            "IRI-based": "Articulo_11_fraccion_ii"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_30",
+          "labels": {
+            "IRI-based": "Articulo_30"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_11_fraccion_x_insiso_a)",
+          "labels": {
+            "IRI-based": "Articulo_11_fraccion_x_insiso_a)"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_33",
+          "labels": {
+            "IRI-based": "Articulo_33"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articuo_34_fraccion_x",
+          "labels": {
+            "IRI-based": "Articuo_34_fraccion_x"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_11_fraccion_i",
+          "labels": {
+            "IRI-based": "Articulo_11_fraccion_i"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_34_fraccion_i",
+          "labels": {
+            "IRI-based": "Articulo_34_fraccion_i"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_34_fraccion_ix",
+          "labels": {
+            "IRI-based": "Articulo_34_fraccion_ix"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_22_fraccion_ix",
+          "labels": {
+            "IRI-based": "Articulo_22_fraccion_ix"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_11_fraccion_iii",
+          "labels": {
+            "IRI-based": "Articulo_11_fraccion_iii"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_22_fraccion_vi",
+          "labels": {
+            "IRI-based": "Articulo_22_fraccion_vi"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_34_fraccion_viii",
+          "labels": {
+            "IRI-based": "Articulo_34_fraccion_viii"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_34_fraccion_vii",
+          "labels": {
+            "IRI-based": "Articulo_34_fraccion_vii"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_34_fraccion_vi",
+          "labels": {
+            "IRI-based": "Articulo_34_fraccion_vi"
+          }
+        }
+      ],
+      "pos": [
+        -461.97,
+        659.32
+      ]
+    },
+    {
+      "id": "23",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Reglamento_de_Tránsito",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Reglamento_de_Tránsito"
+      },
+      "comment": {
+        "undefined": "El reglamento de tránsito es el documento que  tiene por objeto regular la circulación de peatones y vehículos en la vía pública y la seguridad vial en la Ciudad de México."
+      },
+      "pos": [
+        356.2,
+        314.09
+      ]
+    },
+    {
+      "id": "39",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Informativas_de_Destino",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Informativas_de_Destino"
+      },
+      "comment": {
+        "undefined": "Tienen por objeto informar a los usuarios sobre el nombre y la ubicación de cada uno de los destinos que se presentan a lo largo de su recorrido. Su aplicación es primordial en las intersecciones en donde el usuario debe elegir la ruta a seguir según el destino seleccionado."
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#señal9",
+          "labels": {
+            "IRI-based": "señal9"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#señal8",
+          "labels": {
+            "IRI-based": "señal8"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#señal7",
+          "labels": {
+            "IRI-based": "señal7"
+          }
+        }
+      ],
+      "pos": [
+        1756.81,
+        944.87
+      ]
+    },
+    {
+      "id": "50",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Turisticas",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Turisticas"
+      },
+      "comment": {
+        "undefined": "Tienen por objetivo informar de la existencia de un servicio o de un lugar de interés turístico y/o recreativo."
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#señal12",
+          "labels": {
+            "IRI-based": "señal12"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#señal13",
+          "labels": {
+            "IRI-based": "señal13"
+          }
+        }
+      ],
+      "pos": [
+        1566.72,
+        226.86
+      ]
+    },
+    {
+      "id": "48",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Vehículos_de_Carga",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Vehículos_de_Carga"
+      },
+      "comment": {
+        "undefined": "Vehículo de carretera provisto de un motor que constituye su único medio de propulsión, proyectado, exclusiva o principalmente, para el transporte de mercancías o para remolcar vehículos utilizados para el transporte de mercancías."
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Trailer2",
+          "labels": {
+            "IRI-based": "Trailer2"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Trailler1",
+          "labels": {
+            "IRI-based": "Trailler1"
+          }
+        }
+      ],
+      "pos": [
+        948.3,
+        -553.96
+      ]
+    },
+    {
+      "id": "58",
+      "attributes": [
+        "anonymous",
+        "union"
+      ],
+      "pos": [
+        -282.04,
+        1790.43
+      ]
+    },
+    {
+      "id": "65",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#De_Información_General",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "De_Información_General"
+      },
+      "comment": {
+        "undefined": "El objetivo de estas señales es informar determinadas disposiciones y recomendaciones de seguridad que conviene observar, así como cierta información general que conviene conocer."
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#señal11",
+          "labels": {
+            "IRI-based": "señal11"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#señal10",
+          "labels": {
+            "IRI-based": "señal10"
+          }
+        }
+      ],
+      "pos": [
+        1663.69,
+        253.76
+      ]
+    },
+    {
+      "id": "66",
+      "attributes": [
+        "anonymous",
+        "union"
+      ],
+      "pos": [
+        -717.61,
+        -70.63
+      ]
+    },
+    {
+      "id": "69",
+      "attributes": [
+        "anonymous",
+        "union"
+      ],
+      "pos": [
+        1044.6,
+        1020.63
+      ]
+    },
+    {
+      "id": "70",
+      "attributes": [
+        "anonymous",
+        "union"
+      ],
+      "pos": [
+        315.93,
+        -1366.05
+      ]
+    },
+    {
+      "id": "73",
+      "attributes": [
+        "anonymous",
+        "union"
+      ],
+      "pos": [
+        1831.9,
+        546.79
+      ]
+    },
+    {
+      "id": "53",
+      "attributes": [
+        "anonymous",
+        "union"
+      ],
+      "pos": [
+        182.49,
+        -659.59
+      ]
+    },
+    {
+      "id": "75",
+      "attributes": [
+        "anonymous",
+        "union"
+      ],
+      "pos": [
+        -351.43,
+        998.38
+      ]
+    },
+    {
+      "id": "78",
+      "attributes": [
+        "anonymous",
+        "union"
+      ],
+      "pos": [
+        815.96,
+        -890.16
+      ]
+    },
+    {
+      "id": "61",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Corporales",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Corporales"
+      },
+      "comment": {
+        "undefined": "Señales corporales de los agentes de tránsito. Las autoridades encargadas de controlar el tránsito harán las señales de la siguiente manera: La espalda o el frente indican que está cerrada la circulación y el conductor deberá detenerse. Los flancos indican que la vía está libre."
+      },
+      "pos": [
+        1568.27,
+        986.25
+      ]
+    },
+    {
+      "id": "76",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#arresto_administrativo",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "arresto_administrativo"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articuo_34_fraccion_x",
+          "labels": {
+            "IRI-based": "Articuo_34_fraccion_x"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_34_fraccion_v",
+          "labels": {
+            "IRI-based": "Articulo_34_fraccion_v"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_34_fraccion_ii",
+          "labels": {
+            "IRI-based": "Articulo_34_fraccion_ii"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_34_fraccion_i",
+          "labels": {
+            "IRI-based": "Articulo_34_fraccion_i"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_34_fraccion_ix",
+          "labels": {
+            "IRI-based": "Articulo_34_fraccion_ix"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_34_fraccion_iv",
+          "labels": {
+            "IRI-based": "Articulo_34_fraccion_iv"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_34_fraccion_viii",
+          "labels": {
+            "IRI-based": "Articulo_34_fraccion_viii"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_34_fraccion_vii",
+          "labels": {
+            "IRI-based": "Articulo_34_fraccion_vii"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_34_fraccion_iii",
+          "labels": {
+            "IRI-based": "Articulo_34_fraccion_iii"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_34_fraccion_vi",
+          "labels": {
+            "IRI-based": "Articulo_34_fraccion_vi"
+          }
+        }
+      ],
+      "pos": [
+        57.47,
+        1075.58
+      ]
+    },
+    {
+      "id": "36",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Vehículos_Motorizados",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Vehículos_Motorizados"
+      },
+      "comment": {
+        "undefined": "Se consideran vehículos motorizados aquellos vehículos de transporte terrestre de pasajeros o carga, que para su tracción dependen de un motor de combustión interna, eléctrica o de cualquier otra tecnología que le proporciona velocidad a más de 25 km/hr."
+      },
+      "pos": [
+        538.46,
+        -523.69
+      ]
+    },
+    {
+      "id": "51",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Restrictivas",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Restrictivas"
+      },
+      "comment": {
+        "undefined": "Son las de color blanco con un aro de color rojo y que tienen por objeto indicar la existencia de limitaciones físicas o prohibiciones reglamentarias que regulan el tránsito."
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#señal6",
+          "labels": {
+            "IRI-based": "señal6"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#señal5",
+          "labels": {
+            "IRI-based": "señal5"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#señal4",
+          "labels": {
+            "IRI-based": "señal4"
+          }
+        }
+      ],
+      "pos": [
+        1818.86,
+        861.16
+      ]
+    },
+    {
+      "id": "42",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Para_Desvíos",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Para_Desvíos"
+      },
+      "comment": {
+        "undefined": "Esta señal se emplea para advertir a los usuarios de las vías, la proximidad a un sitio en el cual se desvía la circulación del tránsito. Deberá indicarse la distancia a la cual se encuentra el desvío."
+      },
+      "pos": [
+        1664.46,
+        965.24
+      ]
+    },
+    {
+      "id": "5",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Dispositivos_Para_el_Control_del_Tránsito",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Dispositivos_Para_el_Control_del_Tránsito"
+      },
+      "comment": {
+        "undefined": "Conjunto de elementos que ordenan y orientan los movimientos de tránsito de personas y circulación de vehículos; que previenen y proporcionan información a los usuarios de la vía para garantizar su seguridad, permitiendo una operación efectiva del flujo peatonal y vehicular."
+      },
+      "pos": [
+        764.28,
+        741.6
+      ]
+    },
+    {
+      "id": "1",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Multa_de_Estacionamiento",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Multa_de_Estacionamiento"
+      },
+      "comment": {
+        "undefined": "Multas que implican una infracción a la ley de tránsito por aparcar el automóvil en un sitio en el que no se encuentra permitido debido a los señalamientos y sentido de circulación de la vialidad."
+      },
+      "pos": [
+        43.36,
+        1703.59
+      ]
+    },
+    {
+      "id": "2",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Multa",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Multa"
+      },
+      "comment": {
+        "undefined": "Las multas son sanciones impuestas por agentes de tránsito por cometer alguna infracción, que en general están separadas de las infracciones de estacionamiento (sin movimiento) e infracciones al circular con un vehículo (con movimiento) y están establecidas para proteger la seguridad tanto del conductor como la de los peatones."
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_34_fraccion_v",
+          "labels": {
+            "IRI-based": "Articulo_34_fraccion_v"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_34_fraccion_ii",
+          "labels": {
+            "IRI-based": "Articulo_34_fraccion_ii"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_22_fraccion_viii",
+          "labels": {
+            "IRI-based": "Articulo_22_fraccion_viii"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_11_fraccion_x_insiso_d)",
+          "labels": {
+            "IRI-based": "Articulo_11_fraccion_x_insiso_d)"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_30",
+          "labels": {
+            "IRI-based": "Articulo_30"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_11_fraccion_x_insiso_a)",
+          "labels": {
+            "IRI-based": "Articulo_11_fraccion_x_insiso_a)"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_33",
+          "labels": {
+            "IRI-based": "Articulo_33"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_34_fraccion_iii",
+          "labels": {
+            "IRI-based": "Articulo_34_fraccion_iii"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articuo_34_fraccion_x",
+          "labels": {
+            "IRI-based": "Articuo_34_fraccion_x"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_11_fraccion_i",
+          "labels": {
+            "IRI-based": "Articulo_11_fraccion_i"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_34_fraccion_i",
+          "labels": {
+            "IRI-based": "Articulo_34_fraccion_i"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_34_fraccion_ix",
+          "labels": {
+            "IRI-based": "Articulo_34_fraccion_ix"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_34_fraccion_iv",
+          "labels": {
+            "IRI-based": "Articulo_34_fraccion_iv"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_22_fraccion_ix",
+          "labels": {
+            "IRI-based": "Articulo_22_fraccion_ix"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_11_fraccion_iii",
+          "labels": {
+            "IRI-based": "Articulo_11_fraccion_iii"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_22_fraccion_vi",
+          "labels": {
+            "IRI-based": "Articulo_22_fraccion_vi"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_34_fraccion_viii",
+          "labels": {
+            "IRI-based": "Articulo_34_fraccion_viii"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_34_fraccion_vii",
+          "labels": {
+            "IRI-based": "Articulo_34_fraccion_vii"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Articulo_34_fraccion_vi",
+          "labels": {
+            "IRI-based": "Articulo_34_fraccion_vi"
+          }
+        }
+      ],
+      "pos": [
+        -194.02,
+        1357.69
+      ]
+    },
+    {
+      "id": "33",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Preventivas",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Preventivas"
+      },
+      "comment": {
+        "undefined": "Son de color amarillo que tienen un símbolo y que tienen por objeto prevenir a los conductores de la existencia de algún peligro en el camino y su naturaleza."
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#señal1",
+          "labels": {
+            "IRI-based": "señal1"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#señal3",
+          "labels": {
+            "IRI-based": "señal3"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#señal2",
+          "labels": {
+            "IRI-based": "señal2"
+          }
+        }
+      ],
+      "pos": [
+        1462.84,
+        241.03
+      ]
+    },
+    {
+      "id": "77",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Retención_de_Licencia",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Retención_de_Licencia"
+      },
+      "comment": {
+        "undefined": "La retención de la licencia de conducir en la CDMX se dará cuando el conductor en cuestión sea detenido por manejar en estado de ebriedad o bajo los efectos de alguna droga."
+      },
+      "pos": [
+        -23.66,
+        1088.06
+      ]
+    },
+    {
+      "id": "24",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Red_Víal",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Red_Víal"
+      },
+      "pos": [
+        554.8,
+        48.28
+      ]
+    },
+    {
+      "id": "68",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#No_Autorizado_para_Infraccionar",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "No_Autorizado_para_Infraccionar"
+      },
+      "comment": {
+        "undefined": "En este rubro está contenido cualquier servidor público de la Secretaría de Seguridad de la Ciudad de México que no reúna las características necesarias y que por ende carece de facultades en materia de tránsito, en contra de quien puede iniciarse una queja o denuncia."
+      },
+      "pos": [
+        -469.45,
+        -258.11
+      ]
+    },
+    {
+      "id": "90",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Infracciones",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Infracciones"
+      },
+      "comment": {
+        "undefined": "Una infracción es una  conducta que transgrede alguna disposición del presente reglamento o demás disposiciones de tránsito aplicables y que tiene como consecuencia una sanción"
+      },
+      "pos": [
+        232.34,
+        68.57
+      ]
+    },
+    {
+      "id": "71",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Motos",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Motos"
+      },
+      "comment": {
+        "undefined": "Una motocicleta es un vehículo de dos ruedas, diseñado para el transporte de una o dos personas. Se trata de un automóvil ya que es un medio de transporte que puede moverse por sí mismo sin tener que apelar a vías o carriles."
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Moto1",
+          "labels": {
+            "IRI-based": "Moto1"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Moto2",
+          "labels": {
+            "IRI-based": "Moto2"
+          }
+        }
+      ],
+      "pos": [
+        711.76,
+        -1345.03
+      ]
+    },
+    {
+      "id": "6",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Señales",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Señales"
+      },
+      "comment": {
+        "undefined": "Conjunto de elementos y objetos visuales de contenido informativo, indicativo, restrictivo, preventivo, prohibitivo o de cualquier otro carácter, que se colocan en la infraestructura vial."
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Disminución_de_Velocidad",
+          "labels": {
+            "IRI-based": "Disminución_de_Velocidad"
+          }
+        }
+      ],
+      "pos": [
+        1375.92,
+        663.75
+      ]
+    },
+    {
+      "id": "25",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Funciones_de_los_Agentes",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Funciones_de_los_Agentes"
+      },
+      "comment": {
+        "undefined": "Un agente vial es un miembro de la Guardia Civil o de la Policía Municipal encargado de la vigilancia y ordenación del tráfico, la denuncia de las infracciones cometidas en la materia y el auxilio y protección a los usuarios de las vías. Sus denuncias dan fe de los hechos que han apreciado directamente o gozan de la denominada presunción de certeza o veracidad."
+      },
+      "pos": [
+        -267.27,
+        92.69
+      ]
+    },
+    {
+      "id": "32",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Infromativas_de_Identificación",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Infromativas_de_Identificación"
+      },
+      "comment": {
+        "undefined": "Tienen por objeto identificar las calles según su nombre y las carreteras según su número de ruta y kilometraje."
+      },
+      "pos": [
+        1415.92,
+        530.21
+      ]
+    },
+    {
+      "id": "38",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Transporte_Público",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Transporte_Público"
+      },
+      "comment": {
+        "undefined": "El transporte público comprende los medios de transporte en que los pasajeros no son los propietarios de los mismos, siendo servidos por terceros (empresas públicas o privadas). El transporte público ayuda al desplazamiento de las personas de un punto a otro en un área de una ciudad, pagando cada persona una tarifa establecida dependiendo de su recorrido."
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Taxi1",
+          "labels": {
+            "IRI-based": "Taxi1"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Pecero1",
+          "labels": {
+            "IRI-based": "Pecero1"
+          }
+        }
+      ],
+      "pos": [
+        1003.58,
+        -624.51
+      ]
+    },
+    {
+      "id": "26",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Normas_de_Circulación",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Normas_de_Circulación"
+      },
+      "comment": {
+        "undefined": "Las normas de tránsito también conocidas como normas de circulación componen el principal punto en la seguridad vial y se tratan del conjunto de disposiciones y protocolos que regulan el tránsito o circulación de vehículos y peatones."
+      },
+      "pos": [
+        174.4,
+        -228.18
+      ]
+    },
+    {
+      "id": "112",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "114",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "18",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "118",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "64",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "80",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "108",
+      "attributes": [
+        "anonymous",
+        "union"
+      ],
+      "pos": [
+        181,
+        286.46
+      ]
+    },
+    {
+      "id": "22",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Multa_de_Circulación",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Multa_de_Circulación"
+      },
+      "comment": {
+        "undefined": "Multas que implican una infracción a la ley de tránsito mientras el vehículo está en movimiento, son generalmente más graves que las multas por estacionamiento."
+      },
+      "pos": [
+        -545.13,
+        1562.29
+      ]
+    },
+    {
+      "id": "72",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Automoviles",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Automoviles"
+      },
+      "comment": {
+        "undefined": "Un automóvil o coche, es un vehículo mecánico (vehículo motorizado) de propulsión propia destinado al transporte de personas, generalmente con cuatro ruedas y capacidad entre una y nueve plazas. Las ruedas \"delanteras\" pueden moverse hacia los lados para permitir giros y tomar curvas."
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#vehiculo_2",
+          "labels": {
+            "IRI-based": "vehiculo_2"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#vehículo1",
+          "labels": {
+            "IRI-based": "vehículo1"
+          }
+        }
+      ],
+      "pos": [
+        655.31,
+        -1424.58
+      ]
+    },
+    {
+      "id": "17",
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "label": {
+        "undefined": "Thing"
+      },
+      "pos": [
+        -1285.35,
+        535.56
+      ]
+    },
+    {
+      "id": "110",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "41",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Dispositivos_Diversos",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Dispositivos_Diversos"
+      },
+      "comment": {
+        "undefined": "Los dispositivos diversos tienen por propósito indicar la existencia de objetos dentro del derecho de vía y bifurcaciones en la carretera o vialidad urbana, delinear sus características geométricas, así como advertir sobre la existencia de curvas cerradas, entre otras funciones."
+      },
+      "pos": [
+        810.49,
+        1294.89
+      ]
+    },
+    {
+      "id": "74",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Vehículos_no_Motorizados",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Vehículos_no_Motorizados"
+      },
+      "comment": {
+        "undefined": "Se consideran vehículos no motorizados aquellos vehículos que utilizan tracción humana, pedaleo asistido y/o propulsión eléctrica para su desplazamiento con una velocidad máxima de 25 km/hr."
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Patineta1",
+          "labels": {
+            "IRI-based": "Patineta1"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Bicicleta1",
+          "labels": {
+            "IRI-based": "Bicicleta1"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Triciclo1",
+          "labels": {
+            "IRI-based": "Triciclo1"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Patín1",
+          "labels": {
+            "IRI-based": "Patín1"
+          }
+        }
+      ],
+      "pos": [
+        -157.99,
+        -495.72
+      ]
+    },
+    {
+      "id": "20",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#sanciones",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "sanciones"
+      },
+      "pos": [
+        -18.93,
+        678.66
+      ]
+    },
+    {
+      "id": "67",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Autorizado_para_Infracionar",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Autorizado_para_Infracionar"
+      },
+      "comment": {
+        "undefined": "Persona integrante de la Policía de Control de Tránsito, autorizada para expedir y firmar las boletas de sanción, con motivo de infracciones a las disposiciones en materia de tránsito, captadas mediante sistemas tecnológicos y equipos electrónicos portátiles."
+      },
+      "pos": [
+        -631.54,
+        238.07
+      ]
+    },
+    {
+      "id": "92",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Semáforos",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Semáforos"
+      },
+      "comment": {
+        "undefined": "Un semáforo es un dispositivo eléctrico de señalización vial, que sirve para regular la circulación de vehículos y peatones en las vías públicas, asignando el derecho de paso a los vehículos y peatones según el uso de colores rojo, amarillo y verde y sus diferentes significados.\n~Rojo sólido: significa que debes hacer el ALTO.\n~Rojo intermitente: te indica un ALTO, pero que puedes avanzar cuando sea seguro hacerlo, tomando en cuenta que no llevas el derecho de vía.\n~Amarillo sólido: Esta luz, que normalmente la verás como transición entre la luz verde y la roja, indica PRECAUCIÓN.\n~Amarillo intermitente: Esta luz te advierte que tú tienes la preferencia de paso, pero que debes proceder con PRECAUCIÓN.\n~Verde sólido: Los colores verdes de un semáforo te indican que puedes cruzar y qué llevas el derecho de vía. El verde sólido te indica que puedes AVANZAR, manteniendo siempre la prudencia."
+      },
+      "pos": [
+        880.76,
+        1674.59
+      ]
+    },
+    {
+      "id": "44",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Marcas_de_Pavimento",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Marcas_de_Pavimento"
+      },
+      "comment": {
+        "undefined": "Las marcas son las rayas, los símbolos y las letras que se pintan sobre el pavimento, guarniciones y estructuras, dentro de o adyacentes a las vías de circulación, así como los objetos que se colocan sobre la superficie de rodamiento con el fin de regular o canalizar el tránsito e indicar la presencia de obstáculos."
+      },
+      "pos": [
+        641.99,
+        1083.39
+      ]
+    },
+    {
+      "id": "35",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Autos_Privados",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Autos_Privados"
+      },
+      "comment": {
+        "undefined": "Es el destinado al uso privado de la persona o empresa propietaria del vehículo."
+      },
+      "pos": [
+        506.91,
+        -1031.75
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "0",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "4",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "16",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "21",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "27",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "31",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "12",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "13",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "34",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "37",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "40",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "14",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "43",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "45",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "46",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "47",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "49",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "15",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "52",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "57",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "59",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "11",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "62",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "63",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "79",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "81",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "82",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "83",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "84",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "85",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "86",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "87",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "56",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "88",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "89",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "91",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "93",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "9",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "94",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "30",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "95",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "97",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "98",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "99",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "100",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "101",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "102",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "103",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "104",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "105",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "106",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "107",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "109",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "111",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "113",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "7",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "10",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "28",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "8",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "116",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "117",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "119",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "60",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "122",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "121",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "124",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "125",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "126",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "115",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "55",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "54",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "29",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "96",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "127",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "GENERATED-UNION-58-22-0",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-58-1-1",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-66-67-0",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-66-68-1",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-69-44-0",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-69-41-1",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-69-6-2",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-70-71-0",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-70-72-1",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-73-61-0",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-73-42-1",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-73-50-2",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-73-33-3",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-73-65-4",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-73-39-5",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-73-51-6",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-73-32-7",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-53-3-0",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-53-74-1",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-53-36-2",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-75-19-0",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-75-76-1",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-75-2-2",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-75-77-3",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-78-48-0",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-78-38-1",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-78-35-2",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-108-24-0",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-108-26-1",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-108-25-2",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-108-20-3",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-108-5-4",
+      "type": "setOperatorProperty"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "0",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "1",
+      "range": "2",
+      "pos": [
+        -30.95,
+        1526.47
+      ]
+    },
+    {
+      "id": "4",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#ControlaConSeñales",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "ControlaConSeñales"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "5",
+      "range": "6",
+      "subproperty": [
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "superproperty": [
+        "7"
+      ],
+      "pos": [
+        1061.52,
+        677.97
+      ]
+    },
+    {
+      "id": "16",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#matricula",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "matricula"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "17",
+      "range": "18"
+    },
+    {
+      "id": "21",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "22",
+      "range": "2",
+      "pos": [
+        -413.02,
+        1429.01
+      ]
+    },
+    {
+      "id": "27",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Agentes",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Agentes"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "17",
+      "range": "17",
+      "subproperty": [
+        "29",
+        "30"
+      ],
+      "superproperty": [
+        "28"
+      ],
+      "pos": [
+        -1359.03,
+        672.53
+      ]
+    },
+    {
+      "id": "31",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "6",
+      "range": "5",
+      "pos": [
+        1069.88,
+        717.84
+      ]
+    },
+    {
+      "id": "12",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#UsaSeñalesInformativasDeIdentificacion",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "UsaSeñalesInformativasDeIdentificacion"
+      },
+      "attributes": [
+        "object",
+        "asymmetric",
+        "irreflexive"
+      ],
+      "domain": "6",
+      "range": "32",
+      "superproperty": [
+        "4"
+      ],
+      "pos": [
+        1249.01,
+        500.93
+      ]
+    },
+    {
+      "id": "13",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#UsaSeñalesPreventivas",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "UsaSeñalesPreventivas"
+      },
+      "attributes": [
+        "object",
+        "asymmetric",
+        "irreflexive"
+      ],
+      "domain": "6",
+      "range": "33",
+      "superproperty": [
+        "4"
+      ],
+      "pos": [
+        1324.68,
+        425.78
+      ]
+    },
+    {
+      "id": "34",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "35",
+      "range": "36",
+      "pos": [
+        522.68,
+        -777.72
+      ]
+    },
+    {
+      "id": "37",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "38",
+      "range": "36",
+      "pos": [
+        764.28,
+        -572.64
+      ]
+    },
+    {
+      "id": "40",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "41",
+      "range": "5",
+      "pos": [
+        754.55,
+        1026.92
+      ]
+    },
+    {
+      "id": "14",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#UsaSeñalesParaDesvio",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "UsaSeñalesParaDesvio"
+      },
+      "attributes": [
+        "object",
+        "asymmetric",
+        "irreflexive"
+      ],
+      "domain": "6",
+      "range": "42",
+      "superproperty": [
+        "4"
+      ],
+      "pos": [
+        1470.03,
+        884.71
+      ]
+    },
+    {
+      "id": "43",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "44",
+      "range": "5",
+      "pos": [
+        627.69,
+        886.46
+      ]
+    },
+    {
+      "id": "45",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "20",
+      "range": "23",
+      "pos": [
+        168.63,
+        496.38
+      ]
+    },
+    {
+      "id": "46",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "26",
+      "range": "23",
+      "pos": [
+        265.3,
+        42.96
+      ]
+    },
+    {
+      "id": "47",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "48",
+      "range": "36",
+      "pos": [
+        736.5,
+        -538.32
+      ]
+    },
+    {
+      "id": "49",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "5",
+      "range": "23",
+      "pos": [
+        560.24,
+        527.84
+      ]
+    },
+    {
+      "id": "15",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#UsaSeñalesRestrictivas",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "UsaSeñalesRestrictivas"
+      },
+      "attributes": [
+        "object",
+        "asymmetric",
+        "irreflexive"
+      ],
+      "domain": "6",
+      "range": "51",
+      "superproperty": [
+        "4"
+      ],
+      "pos": [
+        1594.53,
+        758.47
+      ]
+    },
+    {
+      "id": "52",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#RegulanA",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "RegulanA"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "26",
+      "range": "53",
+      "subproperty": [
+        "54",
+        "55",
+        "56"
+      ],
+      "superproperty": [
+        "28"
+      ],
+      "pos": [
+        178.44,
+        -443.89
+      ]
+    },
+    {
+      "id": "57",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "24",
+      "range": "23",
+      "pos": [
+        538.34,
+        230.56
+      ]
+    },
+    {
+      "id": "59",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#MultaPorEstacionamiento",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "MultaPorEstacionamiento"
+      },
+      "attributes": [
+        "object",
+        "asymmetric",
+        "irreflexive"
+      ],
+      "domain": "2",
+      "range": "1",
+      "superproperty": [
+        "60"
+      ],
+      "pos": [
+        -90.47,
+        1565.54
+      ]
+    },
+    {
+      "id": "11",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#UsaSeñalesCorporales",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "UsaSeñalesCorporales"
+      },
+      "attributes": [
+        "object",
+        "asymmetric",
+        "irreflexive"
+      ],
+      "domain": "6",
+      "range": "61",
+      "superproperty": [
+        "4"
+      ],
+      "pos": [
+        1377.75,
+        894.67
+      ]
+    },
+    {
+      "id": "62",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "25",
+      "range": "23",
+      "pos": [
+        44.47,
+        203.39
+      ]
+    },
+    {
+      "id": "63",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#modelo",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "modelo"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "17",
+      "range": "64"
+    },
+    {
+      "id": "79",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#multa",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "multa"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "17",
+      "range": "80"
+    },
+    {
+      "id": "81",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Como",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Como"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "5",
+      "range": "69",
+      "pos": [
+        904.44,
+        881.11
+      ]
+    },
+    {
+      "id": "82",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Está",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Está"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "25",
+      "range": "66",
+      "pos": [
+        -492.44,
+        11.03
+      ]
+    },
+    {
+      "id": "83",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "72",
+      "range": "35",
+      "pos": [
+        578.68,
+        -1221.72
+      ]
+    },
+    {
+      "id": "84",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "71",
+      "range": "35",
+      "pos": [
+        605.56,
+        -1182.62
+      ]
+    },
+    {
+      "id": "85",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "76",
+      "range": "20",
+      "pos": [
+        16.98,
+        865.25
+      ]
+    },
+    {
+      "id": "86",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "19",
+      "range": "20",
+      "pos": [
+        -226.4,
+        669.6
+      ]
+    },
+    {
+      "id": "87",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "77",
+      "range": "20",
+      "pos": [
+        -21.29,
+        883.36
+      ]
+    },
+    {
+      "id": "56",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#RegulanAVehiculosNoMotorizados",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "RegulanAVehiculosNoMotorizados"
+      },
+      "attributes": [
+        "object",
+        "asymmetric",
+        "irreflexive"
+      ],
+      "domain": "26",
+      "range": "74",
+      "superproperty": [
+        "52"
+      ],
+      "pos": [
+        15.17,
+        -356.35
+      ]
+    },
+    {
+      "id": "88",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "2",
+      "range": "20",
+      "pos": [
+        -102.86,
+        1004.15
+      ]
+    },
+    {
+      "id": "89",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#al_cometer",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "al_cometer"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "36",
+      "range": "90",
+      "pos": [
+        385.4,
+        -227.56
+      ]
+    },
+    {
+      "id": "91",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "92",
+      "range": "41",
+      "pos": [
+        906.68,
+        1488.06
+      ]
+    },
+    {
+      "id": "93",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "68",
+      "range": "25",
+      "pos": [
+        -401.76,
+        -71.89
+      ]
+    },
+    {
+      "id": "9",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#UsaSeñalesInformativasDeDestino",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "UsaSeñalesInformativasDeDestino"
+      },
+      "attributes": [
+        "object",
+        "asymmetric",
+        "irreflexive"
+      ],
+      "domain": "6",
+      "range": "39",
+      "superproperty": [
+        "4"
+      ],
+      "pos": [
+        1545.48,
+        842.65
+      ]
+    },
+    {
+      "id": "94",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#PuedenSer",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "PuedenSer"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "35",
+      "range": "70",
+      "pos": [
+        411.42,
+        -1198.9
+      ]
+    },
+    {
+      "id": "30",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#AgenteAutorizado",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "AgenteAutorizado"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "25",
+      "range": "67",
+      "superproperty": [
+        "27"
+      ],
+      "pos": [
+        -467.96,
+        135.51
+      ]
+    },
+    {
+      "id": "95",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#DispositivosUsados",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "DispositivosUsados"
+      },
+      "attributes": [
+        "object",
+        "asymmetric",
+        "irreflexive"
+      ],
+      "domain": "41",
+      "range": "92",
+      "superproperty": [
+        "96"
+      ],
+      "pos": [
+        782.07,
+        1509.42
+      ]
+    },
+    {
+      "id": "97",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "67",
+      "range": "25",
+      "pos": [
+        -443.19,
+        198.26
+      ]
+    },
+    {
+      "id": "98",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "39",
+      "range": "6",
+      "pos": [
+        1564.45,
+        802.55
+      ]
+    },
+    {
+      "id": "99",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "65",
+      "range": "6",
+      "pos": [
+        1544.6,
+        475.72
+      ]
+    },
+    {
+      "id": "100",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "32",
+      "range": "6",
+      "pos": [
+        1226.95,
+        556.54
+      ]
+    },
+    {
+      "id": "101",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "51",
+      "range": "6",
+      "pos": [
+        1610.83,
+        715.04
+      ]
+    },
+    {
+      "id": "102",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "42",
+      "range": "6",
+      "pos": [
+        1492.41,
+        843.24
+      ]
+    },
+    {
+      "id": "103",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "61",
+      "range": "6",
+      "pos": [
+        1409.81,
+        868.58
+      ]
+    },
+    {
+      "id": "104",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Son",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Son"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "41",
+      "range": "92",
+      "pos": [
+        843.67,
+        1498.62
+      ]
+    },
+    {
+      "id": "105",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "33",
+      "range": "6",
+      "pos": [
+        1367,
+        438.02
+      ]
+    },
+    {
+      "id": "106",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "50",
+      "range": "6",
+      "pos": [
+        1460.51,
+        434.07
+      ]
+    },
+    {
+      "id": "107",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#RegulaCon",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "RegulaCon"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "23",
+      "range": "108",
+      "pos": [
+        268.6,
+        300.28
+      ]
+    },
+    {
+      "id": "109",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#señal",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "señal"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "17",
+      "range": "110"
+    },
+    {
+      "id": "111",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#clase",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "clase"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "17",
+      "range": "112"
+    },
+    {
+      "id": "113",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#nombre",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "nombre"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "17",
+      "range": "114"
+    },
+    {
+      "id": "7",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#ControlanCon",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "ControlanCon"
+      },
+      "attributes": [
+        "object",
+        "asymmetric",
+        "irreflexive"
+      ],
+      "domain": "17",
+      "range": "17",
+      "subproperty": [
+        "4",
+        "115",
+        "96"
+      ],
+      "superproperty": [
+        "28"
+      ],
+      "pos": [
+        -1223.84,
+        680.26
+      ]
+    },
+    {
+      "id": "10",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#UsaSeñalesTuristicas",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "UsaSeñalesTuristicas"
+      },
+      "attributes": [
+        "object",
+        "asymmetric",
+        "irreflexive"
+      ],
+      "domain": "6",
+      "range": "50",
+      "superproperty": [
+        "4"
+      ],
+      "pos": [
+        1421.85,
+        410.99
+      ]
+    },
+    {
+      "id": "28",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#RegulanCon",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "RegulanCon"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "17",
+      "range": "17",
+      "subproperty": [
+        "7",
+        "27",
+        "116",
+        "52"
+      ],
+      "pos": [
+        -1131.8,
+        553.07
+      ]
+    },
+    {
+      "id": "8",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#UsaSeñalesInformacionGeneral",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "UsaSeñalesInformacionGeneral"
+      },
+      "attributes": [
+        "object",
+        "asymmetric",
+        "irreflexive"
+      ],
+      "domain": "6",
+      "range": "65",
+      "superproperty": [
+        "4"
+      ],
+      "pos": [
+        1512.51,
+        445.83
+      ]
+    },
+    {
+      "id": "116",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#RegulanConElUsoDe",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "RegulanConElUsoDe"
+      },
+      "attributes": [
+        "object",
+        "asymmetric",
+        "irreflexive"
+      ],
+      "domain": "23",
+      "range": "24",
+      "superproperty": [
+        "28"
+      ],
+      "pos": [
+        491.36,
+        192.73
+      ]
+    },
+    {
+      "id": "117",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#peaton",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "peaton"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "17",
+      "range": "118"
+    },
+    {
+      "id": "119",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#SonAcredoresA",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "SonAcredoresA"
+      },
+      "attributes": [
+        "object",
+        "asymmetric",
+        "irreflexive"
+      ],
+      "domain": "90",
+      "range": "20",
+      "pos": [
+        106.7,
+        373.62
+      ]
+    },
+    {
+      "id": "60",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#SancionaConMulta",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "SancionaConMulta"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "17",
+      "range": "17",
+      "subproperty": [
+        "59",
+        "121"
+      ],
+      "superproperty": [],
+      "pos": [
+        -1240.2,
+        385.53
+      ]
+    },
+    {
+      "id": "122",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#SancionaConRetencion",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "SancionaConRetencion"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "17",
+      "range": "17",
+      "superproperty": [],
+      "pos": [
+        -1378.68,
+        411.01
+      ]
+    },
+    {
+      "id": "121",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#MultaPorCirculacion",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "MultaPorCirculacion"
+      },
+      "attributes": [
+        "object",
+        "asymmetric",
+        "irreflexive"
+      ],
+      "domain": "2",
+      "range": "22",
+      "superproperty": [
+        "60"
+      ],
+      "pos": [
+        -371.46,
+        1496.68
+      ]
+    },
+    {
+      "id": "124",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#SeClasificanEn",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "SeClasificanEn"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "36",
+      "range": "78",
+      "pos": [
+        677.21,
+        -706.93
+      ]
+    },
+    {
+      "id": "125",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#Conlleva",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "Conlleva"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "20",
+      "range": "75",
+      "pos": [
+        -185.18,
+        838.52
+      ]
+    },
+    {
+      "id": "126",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#SeEmplean",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "SeEmplean"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "6",
+      "range": "73",
+      "pos": [
+        1609.02,
+        603.96
+      ]
+    },
+    {
+      "id": "115",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#ControlaConMarcas",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "ControlaConMarcas"
+      },
+      "attributes": [
+        "object",
+        "asymmetric",
+        "irreflexive"
+      ],
+      "domain": "5",
+      "range": "44",
+      "superproperty": [
+        "7"
+      ],
+      "pos": [
+        684.38,
+        906.75
+      ]
+    },
+    {
+      "id": "55",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#RegulanAPeatones",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "RegulanAPeatones"
+      },
+      "attributes": [
+        "object",
+        "asymmetric",
+        "irreflexive"
+      ],
+      "domain": "26",
+      "range": "3",
+      "superproperty": [
+        "52"
+      ],
+      "pos": [
+        18.21,
+        -402.04
+      ]
+    },
+    {
+      "id": "54",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#RegulanAVehiculosMotorizados",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "RegulanAVehiculosMotorizados"
+      },
+      "attributes": [
+        "object",
+        "asymmetric",
+        "irreflexive"
+      ],
+      "domain": "26",
+      "range": "36",
+      "superproperty": [
+        "52"
+      ],
+      "pos": [
+        356.43,
+        -375.94
+      ]
+    },
+    {
+      "id": "29",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#AgenteNoAutorizado",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "AgenteNoAutorizado"
+      },
+      "attributes": [
+        "object",
+        "asymmetric",
+        "irreflexive"
+      ],
+      "domain": "25",
+      "range": "68",
+      "superproperty": [
+        "27"
+      ],
+      "pos": [
+        -347.2,
+        -102.04
+      ]
+    },
+    {
+      "id": "96",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#ControlaConDispositivos",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "ControlaConDispositivos"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "5",
+      "range": "41",
+      "subproperty": [
+        "95"
+      ],
+      "superproperty": [
+        "7"
+      ],
+      "pos": [
+        794.08,
+        1016.63
+      ]
+    },
+    {
+      "id": "127",
+      "iri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito#SeDivideEn",
+      "baseIri": "http://www.semanticweb.org/latitudee5450/ontologies/2022/3/OntologíaTránsito",
+      "label": {
+        "IRI-based": "SeDivideEn"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "2",
+      "range": "58",
+      "pos": [
+        -240.92,
+        1588.26
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-58-22-0",
+      "domain": "58",
+      "range": "22",
+      "pos": [
+        -413.58,
+        1676.36
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-58-1-1",
+      "domain": "58",
+      "range": "1",
+      "pos": [
+        -119.34,
+        1747.01
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-66-67-0",
+      "domain": "66",
+      "range": "67",
+      "pos": [
+        -674.57,
+        83.72
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-66-68-1",
+      "domain": "66",
+      "range": "68",
+      "pos": [
+        -593.53,
+        -164.37
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-69-44-0",
+      "domain": "69",
+      "range": "44",
+      "pos": [
+        843.3,
+        1052.01
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-69-41-1",
+      "domain": "69",
+      "range": "41",
+      "pos": [
+        927.55,
+        1157.76
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-69-6-2",
+      "domain": "69",
+      "range": "6",
+      "pos": [
+        1206.67,
+        846.05
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-70-71-0",
+      "domain": "70",
+      "range": "71",
+      "pos": [
+        506.96,
+        -1355.9
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-70-72-1",
+      "domain": "70",
+      "range": "72",
+      "pos": [
+        478.83,
+        -1394.15
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-73-61-0",
+      "domain": "73",
+      "range": "61",
+      "pos": [
+        1700.09,
+        766.52
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-73-42-1",
+      "domain": "73",
+      "range": "42",
+      "pos": [
+        1748.18,
+        756.01
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-73-50-2",
+      "domain": "73",
+      "range": "50",
+      "pos": [
+        1703.71,
+        392.13
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-73-33-3",
+      "domain": "73",
+      "range": "33",
+      "pos": [
+        1653.57,
+        399.04
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-73-65-4",
+      "domain": "73",
+      "range": "65",
+      "pos": [
+        1751.23,
+        406.25
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-73-39-5",
+      "domain": "73",
+      "range": "39",
+      "pos": [
+        1795.85,
+        737.92
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-73-51-6",
+      "domain": "73",
+      "range": "51",
+      "pos": [
+        1825.72,
+        695.94
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-73-32-7",
+      "domain": "73",
+      "range": "32",
+      "pos": [
+        1623.91,
+        538.5
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-53-3-0",
+      "domain": "53",
+      "range": "3",
+      "pos": [
+        24.74,
+        -625.43
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-53-74-1",
+      "domain": "53",
+      "range": "74",
+      "pos": [
+        20.3,
+        -581.53
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-53-36-2",
+      "domain": "53",
+      "range": "36",
+      "pos": [
+        360.47,
+        -591.64
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-75-19-0",
+      "domain": "75",
+      "range": "19",
+      "pos": [
+        -402.34,
+        842.22
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-75-76-1",
+      "domain": "75",
+      "range": "76",
+      "pos": [
+        -158.86,
+        1034.74
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-75-2-2",
+      "domain": "75",
+      "range": "2",
+      "pos": [
+        -278.53,
+        1164.77
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-75-77-3",
+      "domain": "75",
+      "range": "77",
+      "pos": [
+        -187.54,
+        1043.22
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-78-48-0",
+      "domain": "78",
+      "range": "48",
+      "pos": [
+        879.61,
+        -728.48
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-78-38-1",
+      "domain": "78",
+      "range": "38",
+      "pos": [
+        905.79,
+        -762.97
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-78-35-2",
+      "domain": "78",
+      "range": "35",
+      "pos": [
+        661.44,
+        -960.96
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-108-24-0",
+      "domain": "108",
+      "range": "24",
+      "pos": [
+        367.9,
+        167.37
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-108-26-1",
+      "domain": "108",
+      "range": "26",
+      "pos": [
+        177.7,
+        29.14
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-108-25-2",
+      "domain": "108",
+      "range": "25",
+      "pos": [
+        -43.14,
+        189.58
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-108-20-3",
+      "domain": "108",
+      "range": "20",
+      "pos": [
+        81.03,
+        482.56
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-108-5-4",
+      "domain": "108",
+      "range": "5",
+      "pos": [
+        472.64,
+        514.03
+      ]
+    }
+  ]
+}
